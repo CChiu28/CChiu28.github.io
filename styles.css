@@ -7,11 +7,13 @@
 }
 .sidebar {
     position: fixed;
+    width: 300px;
     border: 1px solid;
 }
 
 .maincontent {
     border: 1px solid;
     position: relative;
+    margin-left: 300px;
     text-align: center;
 }
