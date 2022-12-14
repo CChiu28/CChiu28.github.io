@@ -4,9 +4,9 @@ import SideBar from "./sidebar";
 export default function Layout(props: any) {
 
     return(
-        <div className='relative flex'>
-            <SideBar />
+        <>
+            {/* <SideBar /> */}
             <div>{ props.children }</div>
-        </div>
+        </>
     )
 }
